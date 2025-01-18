@@ -8,6 +8,7 @@
 body{
     background-color: #222;
     color: #f6f6f6;
+<<<<<<< HEAD:Twitter-card/src/index.css
     font-family: 'system-ui','sans-serif';
     display: grid;
     place-content: center;
@@ -18,4 +19,9 @@ body{
     display: flex;
     flex-direction: column;
     row-gap: 16px;
+=======
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+>>>>>>> 605965c (empezamos a crear y estilar el primer componente):src/index.css
 }
