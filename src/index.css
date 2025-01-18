@@ -8,6 +8,7 @@
 body{
     background-color: #222;
     color: #f6f6f6;
+    font-family: 'system-ui','sans-serif';
     display: grid;
     place-content: center;
     min-height: 100vh;
