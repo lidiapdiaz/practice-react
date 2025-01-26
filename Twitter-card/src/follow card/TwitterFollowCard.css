@@ -2,10 +2,7 @@
 .tw-followCard{
     display: flex;
     align-items: center;
-<<<<<<< HEAD:Twitter-card/src/follow card/TwitterFollowCard.css
     justify-content: space-between;
-=======
->>>>>>> ee0fac3 (reorganizacion de los archivos):src/follow card/TwitterFollowCard.css
     color: #fff;
     font-size: .8rem;
 }

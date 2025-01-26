@@ -13,3 +13,9 @@ body{
     place-content: center;
     min-height: 100vh;
 }
+
+.tw-section-followCard{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
