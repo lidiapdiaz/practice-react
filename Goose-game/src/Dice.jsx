@@ -14,7 +14,7 @@ function Dice() {
 return (
     <>
     <div>dado: {rollDice}</div>
-    <button onClick={handleRollDice}> tirar dado</button>
+    <button onClick={handleRollDice} className="bg-blue-700 text-white p-1 m-0.5 rounded-md"> tirar dado</button>
     </>
 )
 }
