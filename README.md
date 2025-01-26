@@ -1,8 +1,8 @@
-# React + Vite
+# Learning React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Repository to learn and practice the basics of React
 
-Currently, two official plugins are available:
+### Projects list:
 
 |Number | Project        | Code     | Web   |
 |-------|----------------|----------|-------|
