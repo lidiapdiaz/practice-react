@@ -16,6 +16,6 @@ export default function TwitterFollowCard({name, userName, userImage, isFollowin
     <aside>
         <button className='tw-followCard-button'>Seguir</button>
     </aside>  
-   </article>
+  </article>
   )
 }
