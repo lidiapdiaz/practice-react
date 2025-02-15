@@ -1,3 +1,4 @@
+import  databoard  from "./data/databoard.json";
 import Dice from "./Dice"
 import './App.css'
 import Player from "./Player"
@@ -13,12 +14,12 @@ function Board() {
     <Dice/>
     <section className="flex flex-row items-center m-8">
       <Player/>
-    {board.map((cell, index) =>{
+    {databoard.map((cell) =>{
       return(
       <div 
-        key={index}
+        key={cell.id}
         className="border-2 border-gray-600 w-[40px] p-2 m-0.5"
-        >{index}
+        >{cell.id}
       </div>)
     })}
     </section>
