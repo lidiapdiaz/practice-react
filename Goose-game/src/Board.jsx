@@ -18,7 +18,7 @@ function Board() {
       return(
       <div 
         key={cell.id}
-        className="border-2 border-gray-600 w-[40px] p-2 m-0.5"
+        className="border-2 border-gray-600 w-[80px] h-[80px] p-2 m-0.5"
         >{cell.id}
       </div>)
     })}
