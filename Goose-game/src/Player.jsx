@@ -9,15 +9,14 @@ function Player() {
 
   //Saber en qué casilla según posición de la ficha:
   //cuando encuentres el valor que tiene number-cell, setea ese valor en el estado position
-  const currentCell = databoard.find(cell => cell["number-cell"] === position);
-  console.log('estas na casilla', currentCell.x);
+  const currentCell = databoard.find(cell => cell.numberCell === position);
 
   return (
     <>
     <div 
     className={`text-5xl absolute`}
     style={{
-      left: `${currentCell?.x * 80 + 75}px`,
+      left: `${currentCell?.x * 80 + 40}px`,
       top: "140px",
     }}
     >♟️</div>
