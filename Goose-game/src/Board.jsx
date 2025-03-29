@@ -3,9 +3,6 @@ import Dice from "./Dice"
 import './App.css'
 import Player from "./Player"
 
-//Creamos un array de 10 posiciones que serán las casillas
-const board = Array(15).fill(null)
-
 function Board() {
 
   return (
