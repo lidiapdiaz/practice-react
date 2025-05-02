@@ -5,7 +5,8 @@ Para practicar co uso de useContext e aprender a facer unha tenda sinxela, segu�
 # Exercicio proposto por @midudev:
 ## 1. Ecommerce
 
-- Mostra unha lista de productos que veñen dun JSON
+#### Mostra unha lista de productos que veñen dun JSON
+ Esto resolvino simplemente facendo un .map e logo apliquei estilos. A mellor forma de estilar unha lista e que sexa responsive dunha maneira sinxela é con grid (repasar gods.css)
 - Engade un filtro por categoría
 - Engade un filtro por precio
 
