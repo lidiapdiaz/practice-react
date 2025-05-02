@@ -31,9 +31,11 @@ body {
 }
 
 button {
-  border-radius: 8px;
+  width: 100%;
+  font-variant: small-caps;
+  border-radius: 6px;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
+  padding: 0.8em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
@@ -42,7 +44,8 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #ff0266;
+  color: #ff0266;
 }
 button:focus,
 button:focus-visible {
