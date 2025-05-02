@@ -1,11 +1,11 @@
-import './App.css'
+import './index.css'
 
 function App() {
   
 
   return (
     <>
-      <h1>EN CONSTRUCCIÓN</h1>
+      <h1>eGods ☄️</h1>
     </>
   )
 }

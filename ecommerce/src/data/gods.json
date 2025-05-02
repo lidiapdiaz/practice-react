@@ -1,0 +1,59 @@
+{ "gods": [
+    {
+    "id": 1,
+    "name": "Zeus",
+    "mitology": "greek",
+    "hp": 7800,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg/250px-Jupiter_Smyrna_Louvre_Ma13.jpg"
+    },
+    {
+    "id": 2,
+    "name": "Odin",
+    "mitology": "nordic",
+    "hp": 6500,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Georg_von_Rosen_-_Oden_som_vandringsman%2C_1886_%28Odin%2C_the_Wanderer%29.jpg/250px-Georg_von_Rosen_-_Oden_som_vandringsman%2C_1886_%28Odin%2C_the_Wanderer%29.jpg"
+    },
+    {
+    "id": 3,
+    "name": "Ra",
+    "mitology": "egyptian",
+    "hp": 9000,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Re-Horakhty.svg/250px-Re-Horakhty.svg.png"
+    },
+    {
+    "id": 4,
+    "name": "Yahvé",
+    "mitology": "christian",
+    "hp": 8500,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Zeus_Yahweh.jpg/250px-Zeus_Yahweh.jpg"
+    },
+    {
+    "id": 5,
+    "name": "Cerberus",
+    "mitology": "greek",
+    "hp": 5000,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Herakles_Kerberos_Eurystheus_Louvre_E701.jpg/250px-Herakles_Kerberos_Eurystheus_Louvre_E701.jpg"
+    },
+    {
+    "id": 6,
+    "name": "Hydra",
+    "mitology": "greek",
+    "hp": 4000,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Gustave_Moreau_-_Hercules_and_the_Lernaean_Hydra_-_1964.231_-_Art_Institute_of_Chicago.jpg/250px-Gustave_Moreau_-_Hercules_and_the_Lernaean_Hydra_-_1964.231_-_Art_Institute_of_Chicago.jpg"
+    },
+    {
+    "id": 7,
+    "name": "Quetzalcóatl",
+    "mitology": "aztec",
+    "hp": 7200,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Quetzalc%C3%B3atl_como_la_serpiente_emplumada_y_el_dios_del_viento_Eh%C3%A9catl%2C_en_el_folio_19.jpg/250px-Quetzalc%C3%B3atl_como_la_serpiente_emplumada_y_el_dios_del_viento_Eh%C3%A9catl%2C_en_el_folio_19.jpg"
+    },
+    {
+    "id": 8,
+    "name": "Fenrir",
+    "mitology": "nordic",
+    "hp": 8300,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Peter_Nicolai_Arbo_-_Fenrir.jpg/250px-Peter_Nicolai_Arbo_-_Fenrir.jpg"
+    }
+]
+}
