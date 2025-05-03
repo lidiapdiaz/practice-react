@@ -8,3 +8,14 @@
     align-items: center;
     gap: 1rem;
 }
+
+/*Por probar cómo colorear a barra de rango*/
+input[type='range']::-moz-range-track {
+    background-color: #ff026747
+}
+
+
+input[type='range']::-moz-range-thumb,
+input[type='range']::-moz-range-progress{
+    background-color: #ff0266
+}

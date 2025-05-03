@@ -12,7 +12,7 @@ function App() {
   //estado para crear filtros
   const [filters, setFilters] = useState({
     mithology: 'all',
-    minHp: 0,
+    minHp: 0
   })
 
   //Creamos unha función para filtrar deuses
