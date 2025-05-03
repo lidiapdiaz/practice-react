@@ -4,11 +4,12 @@ import Gods from './components/Gods'
 import {gods as initialGods} from "./data/gods.json"
 import './index.css'
 import Header from './components/Header';
+import Footer from './components/Footer'
 
 function App() {
-  
+
   const [gods] = useState(initialGods);
-  const {filterGods, setFilters} = useFilters()
+  const {filterGods, filters, setFilters} = useFilters()
   const filteredGods = filterGods(gods);
   
 
@@ -16,6 +17,7 @@ function App() {
     <>
       <Header changeFilters={setFilters}/>
       <Gods gods={filteredGods}/>
+      <Footer filters={filters}/>
     </>
   )
 }

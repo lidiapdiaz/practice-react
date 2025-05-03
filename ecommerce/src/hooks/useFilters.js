@@ -1,11 +1,17 @@
-import { useState } from "react"
+//import { useState } from "react"
+
+import { useContext } from "react"
+import { FiltersContext } from "../context/filtersContext"
 
 function useFilters() {
-  //estado para crear filtros
+  /*estado para crear filtros
     const [filters, setFilters] = useState({
     mithology: 'all',
     minHp: 0
-    })
+    })*/
+
+    const {filters, setFilters }= useContext(FiltersContext)
+    console.log("que pasa", filters)
 
     //Creamos unha función para filtrar deuses
     const filterGods = (gods) => {
@@ -19,7 +25,7 @@ function useFilters() {
             )
         )})
     }
-return {filterGods, setFilters}
+return {filterGods, filters, setFilters}
 }
 
 export default useFilters;
