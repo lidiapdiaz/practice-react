@@ -8,7 +8,14 @@ Para practicar co uso de useContext e aprender a facer unha tenda sinxela, segu�
 #### Engade un filtro por categoría e por prezo
     Primeiro hai que crear un estado para os filtros e logo usa-lo método .filter para filtra-la lista coas condicions que indiquemos (maior que tal prezo, igual a categoria X...)
 
-✨ Fai uso de useContext para evitar pasar props innecesarias.
+### ✨ Fai uso de useContext para evitar pasar props innecesarias.
+    1. Para usar dunha forma cómoda o contexto dos filtros, creei un custom Hook (useFilters) para gardar toda a lóxica dos filtros
+
+    2. Despois creei o contexto e mailo proveedor
+
+    3. Para consumi-lo contexto só facía falla ir chamando o custom hook e importa-las variable que fose necesitando
+    (+info: ver comentarios no código)
+
 
 ## 2. Carrito:
 

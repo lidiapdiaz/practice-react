@@ -1,20 +1,31 @@
-import { useState } from 'react'
 import './filters.css'
-export default function Filters({onChange}) {
+import useFilters from '../hooks/useFilters'
+export default function Filters() {
 
+    const {filters, setFilters} = useFilters()
+
+    /*
     //estado para mostrar qué HP se elixe
     const [minHp, setMinHp] = useState(0)
+    MAAAL, obten o valor de minHP de dous sitios distintos. ISO NON PODE SER
+    const handleChangeHp= (event) => {
+        setMinHp(event.target.value) //aqui colle o valor dun estado local
+        setFilters(prevState => ({ //aqui colle o valor dun estado "global" (copntexto)"
+            ...prevState,
+            minHp:event.target.value
+        }))
+    }*/
 
     const handleChangeHp= (event) => {
-        setMinHp(event.target.value)
-        onChange(prevState => ({
+        setFilters(prevState => ({ //aqui colle o valor dun estado "global" (copntexto)"
             ...prevState,
             minHp:event.target.value
         }))
     }
 
+
     const handleChangeMithology = (event) => {
-        onChange(prevState => ({
+        setFilters(prevState => ({
             ...prevState,
             mithology:event.target.value
         }))
@@ -31,10 +42,10 @@ return (
         id="hp"
         min="0"
         max="9000"
-        value={minHp}
+        value={filters.minHp}
         onChange={handleChangeHp}
         />
-        {minHp}&#9877;
+        {filters.minHp}&#9877;
         </div>
 
         <div>
