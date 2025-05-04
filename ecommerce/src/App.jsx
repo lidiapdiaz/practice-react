@@ -9,15 +9,15 @@ import Footer from './components/Footer'
 function App() {
 
   const [gods] = useState(initialGods);
-  const {filterGods, filters, setFilters} = useFilters()
+  const {filterGods} = useFilters()
   const filteredGods = filterGods(gods);
   
 
   return (
     <>
-      <Header changeFilters={setFilters}/>
+      <Header/>
       <Gods gods={filteredGods}/>
-      <Footer filters={filters}/>
+      <Footer/>
     </>
   )
 }

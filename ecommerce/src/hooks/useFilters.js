@@ -11,7 +11,6 @@ function useFilters() {
     })*/
 
     const {filters, setFilters }= useContext(FiltersContext)
-    console.log("que pasa", filters)
 
     //Creamos unha función para filtrar deuses
     const filterGods = (gods) => {
