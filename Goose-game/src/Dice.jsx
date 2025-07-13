@@ -1,10 +1,14 @@
-import { useState } from "react"
+//import { useState } from "react"
+import { RollDiceContext } from './context/RollDiceContext'
+import { useContext } from 'react';
 
 
 function Dice() {
     //Crear estado, cada vez que se tire el dado, aparezca el resultado
-    const [rollDice, setRollDice] = useState(1); //iniciamos con el num 1
+    //Ahora el estado lo tenemos en el contexto
+    //const [rollDice, setRollDice] = useState(1); //iniciamos con el num 1
 
+    const {rollDice, setRollDice} = useContext(RollDiceContext)
     //Función para generar la tirada del dado
     const handleRollDice = () =>{
     const numberDice =  Math.floor(Math.random() * 6) + 1;
